@@ -96,15 +96,6 @@
     <hr>
 
     <section>
-    <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname">
-    </form>
-    </section>
-
-    <section>
     <form action="/action_page.php">
       <fieldset>
         <legend>Personalia:</legend>
@@ -122,34 +113,33 @@
     </section>
 
     <section>
-    <label for="w3review">Review of W3Schools:</label>
+    <label for="meetingreview">Review of this meeting:</label>
 
-    <textarea id="w3review" name="w3review" rows="4" cols="50">
-      At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+    <textarea id="meetingreview" name="meetingreview" rows="4" cols="50">
     </textarea>
     </section>
 
     <section>
-    <label for="browser">Choose your browser from the list:</label>
-    <input list="browsers" name="browser" id="browser">
+    <label for="amplifiers">Choose an amplifier from the list:</label>
+    <input list="amplifiers" name="amplifier" id="amplifier">
     
-    <datalist id="browsers">
-      <option value="Edge">
-      <option value="Firefox">
-      <option value="Chrome">
-      <option value="Opera">
-      <option value="Safari">
+    <datalist id="amplifiers">
+      <option value="Vox AC30">
+      <option value="Fender 5E3 Deluxe">
+      <option value="Mesa/Boogie Dual Rectifier">
+      <option value="Marshall JCM800">
+      <option value="Roland JC-120">
     </datalist>
     </section>
 
     <section>
-    <label for="cars">Choose a car:</label>
+    <label for="guitar">Choose a guitar:</label>
 
-    <select id="cars">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="opel">Opel</option>
-      <option value="audi">Audi</option>
+    <select id="guitar">
+      <option value="Strat">Fender Stratocaster</option>
+      <option value="Tele">Fender Telecaster</option>
+      <option value="SG">Gibson SG</option>
+      <option value="LesPaul">Gibson Les Paul</option>
     </select>
     </section>
 
